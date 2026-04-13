@@ -1,5 +1,6 @@
 # Project Portfolio
-A pointer to different projects or contents I have been working on throught the years.
+A pointer to different projects or contents I have been working on throught the years.  
+If you are interested in my latest investigations/learning follow this [link](./Skills.md).
 
 ## IoT
 
