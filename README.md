@@ -4,7 +4,14 @@ If you are interested in my latest investigations/learning follow this [link](./
 
 ## IoT
 
-### IoT (MKR1000 + Raspberry)
+### GPS (2016)
+
+In 2016 I bought a GPS sensor. I managed to connect the sensor to my Arduino and write the code to get the latitude and longitude for my position and have them displayed in a 0.54 inches display. The display also shows the local time and the number of satellites currently visible (6).
+
+<img width="620" height="350" alt="image" src="https://github.com/user-attachments/assets/428631e4-5e7e-4936-8ab0-3b8ac46db996" />
+
+
+### Heating System (2019)
 
 In 2019 I attended an education on IoT provided by the UOC in Spain. The final exercise consisted of creating a project which combined the Arduino MKR1000 and Raspberry Pi to create a water heating system.
 
@@ -81,6 +88,13 @@ The interesting part here was a small web application which allowed creating dif
 
 <img width="544" height="341" alt="IoT-Clock" src="https://github.com/user-attachments/assets/9141af4d-45a0-48fb-bcc7-850e6c2fcaf8" />
 
+### DigiNotes (2014)
+
+This was a similar project but in this case the idea was creating something similar to an Alexa (which had not yet been announced!): a display at home which showed messages for the different members of the family or calendar events. Events were managed in a simple web application which stored the information in the Cloud and could be accessed from a mobile from anywhere. In turn the 'DigiNotes' device retrieved that information from the Cloud and displayed it locally.
+In this case a LCD display was used.
+
+<img width="620" height="350" alt="IoT-Clock" src="https://github.com/user-attachments/assets/76cc1f94-07ba-4762-a0f7-89bcbc504da6" />
+
 ### Garmin 735XT
 
 I bought a Garmin 735XT and also did some testing on the capabilities for creating custom applications using the [Moneky C](https://developer.garmin.com/connect-iq/monkey-c/ ) language which were executed on the watch.
@@ -103,9 +117,17 @@ Another small application which displayed the weather forecast on my position on
 
 ## Random Developments
 
-### Raspberry Pi + Hadoop Cluster
+### Raspberry Pi + Hadoop Cluster (2015)
 
-Place holder. Pending.
+I was learning Hadoop and I thought it might be interesting to find out how to configure a Hadoop cluster using three Raspberry Pis (I only had three at that time). I bought a small switch so that I could fit everything in a custom holder.
+The less powerful one (Raspberry Pi 1B+ - 512MB) had the Master role while the other two (Raspberry Pi 2B - 2GB) were the worker nodes.
+
+<img width="620" height="350" alt="image" src="https://github.com/user-attachments/assets/f54ec8b0-aa68-4c04-a3df-8735fdcdefa7" />
+
+You can see a marker next to the picture to better realize of the whole size of the cluster.
+
+<img width="620" height="350" alt="image" src="https://github.com/user-attachments/assets/3a73fbbe-3b1c-4bab-b87e-6fc50dd0a84f" />
+
 
 ### Pokémon (2022)
 This project was part of a hiring challenge in the Quantum group. The process required creating a tool which allowed to manage Pokémons. 
