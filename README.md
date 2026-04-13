@@ -65,17 +65,17 @@ The interesting part here was a small web application which allowed creating dif
 
 ### Garmin 735XT
 
-I bought a Garmin 735XT and also did some testing on the capabilities for creating custom applications which were executed on the watch.
+I bought a Garmin 735XT and also did some testing on the capabilities for creating custom applications using the [Moneky C](https://developer.garmin.com/connect-iq/monkey-c/ ) language which were executed on the watch.
 
 <img width="199" height="253" alt="image" src="https://github.com/user-attachments/assets/77dff43d-a9e7-4f09-aacb-c1702826d9a8" />
 
 #### Trains (2018)
 
-A piece of code developed using the MonkeyC language which displayed the next trains from My home location to Barcelona on a Garmin 735XT
+A small application which displayed the next trains from my home location to Barcelona on the Garmin 735XT.
 
 #### Weather (2018)
 
-A piece of code developed using the MonkeyC language which displayed the weather forecast on my position on a Garmin 735XT.
+Another small application which displayed the weather forecast on my position on the Garmin 735XT.
 
 ## Random Developments
 
