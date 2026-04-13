@@ -87,13 +87,15 @@ I bought a Garmin 735XT and also did some testing on the capabilities for creati
 
 <img width="199" height="253" alt="image" src="https://github.com/user-attachments/assets/77dff43d-a9e7-4f09-aacb-c1702826d9a8" />
 
-#### Trains (2018)
+#### Trains (2017)
 
-A small application which displayed the next trains from my home location to Barcelona on the Garmin 735XT.
+A small application which displayed the next trains from my home location to Barcelona on the Garmin 735XT. This application used a backend service deployed on a serverless solution in IBM Cloud. 
+This small backend service scrapped in real time the RENFE Cercanias web site to retrieve the required information as there was no REST service available at the time.
 
-<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/cb9e0089-f26b-47dc-921c-c10a0db932da" />
+<img width="225" height="400" alt="image" src="https://github.com/user-attachments/assets/cb9e0089-f26b-47dc-921c-c10a0db932da" />
+<img width="225" height="400" alt="image" src="https://github.com/user-attachments/assets/9b7b91cf-81ee-40aa-983f-5e7234a94449" />
 
-![IMG-20170608-WA0001](https://github.com/user-attachments/assets/3181bf44-04a0-405d-9550-3b8dd4657642)
+Yes, the pictures are not very good.
 
 #### Weather (2018)
 
@@ -102,6 +104,8 @@ Another small application which displayed the weather forecast on my position on
 ## Random Developments
 
 ### Raspberry Pi + Hadoop Cluster
+
+Place holder. Pending.
 
 ### Pokémon (2022)
 This project was part of a hiring challenge in the Quantum group. The process required creating a tool which allowed to manage Pokémons. 
