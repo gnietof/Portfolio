@@ -4,6 +4,24 @@ If you are interested in my latest investigations/learning follow this [link](./
 
 ## IoT
 
+### IoT (MKR1000 + Raspberry)
+
+In 2019 I attended an education on IoT provided by the UOC in Spain. The final terms exercise consisted of creating a project which combined the Arduino MKR1000 and Raspberry Pi to create a water heating system.
+
+I developed a small board so that I could simulate a control panel and also interface with the reles. 
+
+<img width="283" height="331" alt="image" src="https://github.com/user-attachments/assets/26b9680f-8a3a-484e-ac8b-65414ebd9e0e" />
+<img width="316" height="381" alt="image" src="https://github.com/user-attachments/assets/a1d8bc0a-0e7a-4f84-8d2e-2c4574276fc2" />
+
+The LED's in the board showed the status. The MKR1000 controlled the heating system and reported to the Raspberry Pi using MQTT. I created a dashboard using Grafana in the Raspbery Pi which displayed the historical evolution of different parameters received through that MQTT connection.
+For the final demo, a resistor and a small engine were connected to the MKR1000 which simulated the heater.
+
+<img width="973" height="453" alt="image" src="https://github.com/user-attachments/assets/5da64e72-8360-4c75-8e5a-06403f511d36" />
+
+The code in the MKR1000 was developed using C/C++ while the one running on the Raspberry Pi was created using Node-RED.
+
+The whole description of the solution can be found [here](./PLA9.pdf) (in Spanish).
+
 ### TOTP-M5 (2021)
 I am lecturing cybersecurity at the University. One of the points I am covering is Identity Management. So I thought it might be interesting to implement a piece of code which was implementing the TOTP protocol in a small portable device which I might take to my lectures.
 
@@ -72,6 +90,10 @@ I bought a Garmin 735XT and also did some testing on the capabilities for creati
 #### Trains (2018)
 
 A small application which displayed the next trains from my home location to Barcelona on the Garmin 735XT.
+
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/cb9e0089-f26b-47dc-921c-c10a0db932da" />
+
+![IMG-20170608-WA0001](https://github.com/user-attachments/assets/3181bf44-04a0-405d-9550-3b8dd4657642)
 
 #### Weather (2018)
 
