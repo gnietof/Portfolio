@@ -61,12 +61,12 @@ The code is mostly the same except for the one required for displaying the TOTP 
 This is a material for a lab I created for a module in another subject I am lecturing at the University which covers Industry 4.0.
 
 The lab includes IoT and Augmented Reality. 
-- Students build a small piece of code using Node-RED. This code runs on the Raspberry Pi + SenseHat emulator. The emulator includes the 8x8 RGB led display.
+- Students build a small piece of code using **Node-RED**. This code runs on the Raspberry Pi + SenseHat emulator. The emulator includes the 8x8 RGB led display.
 
   <img width="968" height="505" alt="image" src="https://github.com/user-attachments/assets/c1d4ef14-c6e6-4be7-b00f-80f75255ad8c" />
 
 - Each student chooses which color they want to display on their assigned 2x2 led block.
-- The code sets the selected color on the emulator display and also sends the information to a Mosquito Broker on the cloud using the MQTT protocol.
+- The code sets the selected color on the emulator display and also sends the information to a Mosquito Broker on the cloud using the **MQTT** protocol.
 - The code is also listening to that same topic so, the display for each student shows the colors selected by the other students.
 - The teacher (me) has a real Raspberry Pi + Sense Hat which also runs the same code and displays each of the colors selected by the students.
 - Finally, also using Node-RED, they add another piece of code which publishes a small HTML page. When they load this HTML page on their mobile phones and point the camera to the University logo, a 3D representation of the SenseHat appears in augmented reality.
@@ -74,7 +74,7 @@ The lab includes IoT and Augmented Reality.
 <img width="224" height="398" alt="IoT - RA" src="https://github.com/user-attachments/assets/f9e6c8cb-46b9-4616-a475-16b18d0fddc8" />
 
 ### Weather + Paper Display
-I bought a small (1.54 inches) two-color paper display. I did some tests where the paper displayed showed the weather prediction. The code run on a ESP32 board.
+I bought a small (1.54 inches) two-color paper display. I did some tests where the paper displayed showed the weather prediction. The **C/C++** code run on a ESP32 board.
 This project also included a backend service deployed on the IBM Cloud which retrieved the prediction from The Weather Channel and provided the required images to the board using a REST call using the HTTP protocol.  
 All the possible icons required for the different weather conditions had previously been prepared for the limited capabilities of the paper display.
 
@@ -103,7 +103,7 @@ I bought a Garmin 735XT and also did some testing on the capabilities for creati
 
 #### Trains (2017)
 
-A small application which displayed the next trains from my home location to Barcelona on the Garmin 735XT. This application used a backend service deployed on a serverless solution in IBM Cloud. 
+A small application written in **MonkeyC** which displayed the next trains from my home location to Barcelona on the Garmin 735XT. This application used a backend service deployed on a serverless solution in IBM Cloud written in **Java**. 
 This small backend service scrapped in real time the RENFE Cercanias web site to retrieve the required information as there was no REST service available at the time.
 
 <img width="225" height="400" alt="image" src="https://github.com/user-attachments/assets/cb9e0089-f26b-47dc-921c-c10a0db932da" />
@@ -119,7 +119,7 @@ Another small application which displayed the weather forecast on my position on
 
 ### Raspberry Pi + Hadoop Cluster (2015)
 
-I was learning Hadoop and I thought it might be interesting to find out how to configure a Hadoop cluster using three Raspberry Pis (I only had three at that time). I bought a small switch so that I could fit everything in a custom holder.
+I was learning **Hadoop** and I thought it might be interesting to find out how to configure a Hadoop cluster using three Raspberry Pis (I only had three at that time). I bought a small switch so that I could fit everything in a custom holder.
 The less powerful one (Raspberry Pi 1B+ - 512MB) had the Master role while the other two (Raspberry Pi 2B - 2GB) were the worker nodes.
 
 <img width="620" height="350" alt="image" src="https://github.com/user-attachments/assets/f54ec8b0-aa68-4c04-a3df-8735fdcdefa7" />
