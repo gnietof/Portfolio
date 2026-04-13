@@ -6,9 +6,9 @@ If you are interested in my latest investigations/learning follow this [link](./
 
 ### IoT (MKR1000 + Raspberry)
 
-In 2019 I attended an education on IoT provided by the UOC in Spain. The final terms exercise consisted of creating a project which combined the Arduino MKR1000 and Raspberry Pi to create a water heating system.
+In 2019 I attended an education on IoT provided by the UOC in Spain. The final exercise consisted of creating a project which combined the Arduino MKR1000 and Raspberry Pi to create a water heating system.
 
-I developed a small board so that I could simulate a control panel and also interface with the reles. 
+I designed and developed a small board so that I could simulate a control panel and also interface with the reles. 
 
 <img width="283" height="331" alt="image" src="https://github.com/user-attachments/assets/26b9680f-8a3a-484e-ac8b-65414ebd9e0e" />
 <img width="316" height="381" alt="image" src="https://github.com/user-attachments/assets/a1d8bc0a-0e7a-4f84-8d2e-2c4574276fc2" />
