@@ -36,6 +36,9 @@ This is a material for a lab I created for a module in another subject I am lect
 
 The lab includes IoT and Augmented Reality. 
 - Students build a small piece of code using Node-RED. This code runs on the Raspberry Pi + SenseHat emulator. The emulator includes the 8x8 RGB led display.
+
+  <img width="968" height="505" alt="image" src="https://github.com/user-attachments/assets/c1d4ef14-c6e6-4be7-b00f-80f75255ad8c" />
+
 - Each student chooses which color they want to display on their assigned 2x2 led block.
 - The code sets the selected color on the emulator display and also sends the information to a Mosquito Broker on the cloud using the MQTT protocol.
 - The code is also listening to that same topic so, the display for each student shows the colors selected by the other students.
