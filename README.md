@@ -120,7 +120,7 @@ Another small application which displayed the weather forecast on my position on
 ### Raspberry Pi + Hadoop Cluster (2015)
 
 I was learning **Hadoop** and I thought it might be interesting to find out how to configure a Hadoop cluster using three Raspberry Pis (I only had three at that time). I bought a small switch so that I could fit everything in a custom holder.
-The less powerful one (Raspberry Pi 1B+ - 512MB) had the Master role while the other two (Raspberry Pi 2B - 2GB) were the worker nodes.
+The less powerful one (Raspberry Pi 1B+ - 512MB) had the master role while the other two (Raspberry Pi 2B - 2GB) were the worker nodes.
 
 <img width="620" height="350" alt="image" src="https://github.com/user-attachments/assets/f54ec8b0-aa68-4c04-a3df-8735fdcdefa7" />
 
