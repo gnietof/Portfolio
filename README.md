@@ -29,7 +29,7 @@ The code in the MKR1000 was developed using C/C++ while the one running on the R
 
 The whole description of the solution can be found [here](./PLA9.pdf) (in Spanish).
 
-### TOTP-M5 (2021)
+### TOTP-M5 (2022)
 I am lecturing cybersecurity at the University. One of the points I am covering is Identity Management. So I thought it might be interesting to implement a piece of code which was implementing the TOTP protocol in a small portable device which I might take to my lectures.
 
 From the list of devices I own I selected a M5StickC by M5Stack.  
@@ -48,7 +48,13 @@ The code was developed in C/C++ using different libraries for HTTPS communicatio
 - Now the Internet connection is no longer required.
 - The application starts showing a sequence of TOTP codes. The application is configured to display a new 6 digit code every 30 seconds.
 
-Initially none of the codes match the one displayed in any application compatible with TOTP such as the one in https://totp.danhersam.com/. When students complain that none of the codes match the ones displayed in the app ... I provide the right password and ask them: What about now?
+Initially none of the codes match the one displayed in any application compatible with TOTP such as the one in https://totp.danhersam.com/. 
+<img width="388" height="588" alt="TOTP1" src="https://github.com/user-attachments/assets/8772c01b-93d3-4302-b96c-3ae8c8df10bb" />
+
+When students complain that none of the codes match the ones displayed in the app ... I provide the right password and ask them: What about now?
+<img width="383" height="592" alt="TOTP2" src="https://github.com/user-attachments/assets/0280cd98-e97b-4cb7-bcb1-d38243c9bb0a" />
+
+https://github.com/user-attachments/assets/38e50a9b-005d-4c40-83e2-209338519126
 
 #### TOTP-S3 (2024)
 Later I migrated this code to a new board: WT32-SC01.
@@ -87,6 +93,19 @@ This project was an alarm clock which showed current time using a 4x7 segment LE
 The interesting part here was a small web application which allowed creating different alarm times. The ESP32 connected to this background REST service using HTTP and was capable of synchronizing the alarms with no intervention.
 
 <img width="544" height="341" alt="IoT-Clock" src="https://github.com/user-attachments/assets/9141af4d-45a0-48fb-bcc7-850e6c2fcaf8" />
+
+In this project the multithreading capabilities (RTOS) in the ESP32 where used so that the blink of the clock, and the hour update were not affected by the task which made periodical connections to the Cloud.
+
+https://github.com/user-attachments/assets/37c21574-ee77-439c-85f6-34dfe1b4ef7e
+
+### Scroller
+
+This was another small project using a different type of display: a 32x8 red led matrix.
+
+In this case, I used again the threading capabilities of ESP32 to make the scrolling smooth. 
+
+<img width="397" height="298" alt="IMG_20190107_003355" src="https://github.com/user-attachments/assets/7d2c0aa1-0e20-4a0c-a442-112ed504d599" />
+
 
 ### DigiNotes (2014)
 
@@ -127,7 +146,6 @@ The less powerful one (Raspberry Pi 1B+ - 512MB) had the master role while the o
 You can see a marker next to the picture to better realize of the whole size of the cluster.
 
 <img width="620" height="350" alt="image" src="https://github.com/user-attachments/assets/3a73fbbe-3b1c-4bab-b87e-6fc50dd0a84f" />
-
 
 ### Pokémon (2022)
 This project was part of a hiring challenge in the Quantum group. The process required creating a tool which allowed to manage Pokémons. 
