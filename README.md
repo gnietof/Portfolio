@@ -136,6 +136,9 @@ Another small application which displayed the weather forecast on my position on
 
 ## Random Developments
 
+I am always trying different things which involve the integration of different sofware solutions or extend the functionality of an existing one. 
+Here is a brief description of some of my projects.
+
 ### Raspberry Pi + Hadoop Cluster (2015)
 
 I was learning **Hadoop** and I thought it might be interesting to find out how to configure a Hadoop cluster using three Raspberry Pis (I only had three at that time). I bought a small switch so that I could fit everything in a custom holder.
@@ -157,6 +160,12 @@ So, I chose **Node.js** for the backend, **JavaScript** for the front end (with 
 This was an interesting challenge back in 2022. There was no AI so I had to build the application from scratch without any assisstants.
 
 <img width="1204" height="818" alt="image" src="https://github.com/user-attachments/assets/e328e36e-06d8-406a-91ea-954024d8a0ed" />
+
+### Maltego (2021)
+Back in 2021 when I was preparing the materials for lecturing on Cybersecurity, I heard about Maltego. Maltego is an OSINT tool, i.e., the information collected by this tool is openly available in the Internet.
+
+So, I created an extension for this tool which allowed finding information about the patents of one person.
+<img width="685" height="760" alt="image" src="https://github.com/user-attachments/assets/01dfd43c-8e1f-43f0-8cfb-4dc3a5660fb2" />
 
 
 
