@@ -48,10 +48,10 @@ The code was developed in C/C++ using different libraries for HTTPS communicatio
 - Now the Internet connection is no longer required.
 - The application starts showing a sequence of TOTP codes. The application is configured to display a new 6 digit code every 30 seconds.
 
-Initially none of the codes match the one displayed in any application compatible with TOTP such as the one in https://totp.danhersam.com/. 
+Initially none of the codes match the one displayed in any application compatible with TOTP such as the one in https://totp.danhersam.com/.  
 <img width="388" height="588" alt="TOTP1" src="https://github.com/user-attachments/assets/8772c01b-93d3-4302-b96c-3ae8c8df10bb" />
 
-When students complain that none of the codes match the ones displayed in the app ... I provide the right password and ask them: What about now?
+When students complain that none of the codes match the ones displayed in the app ... I provide the right password and ask them: What about now?  
 <img width="383" height="592" alt="TOTP2" src="https://github.com/user-attachments/assets/0280cd98-e97b-4cb7-bcb1-d38243c9bb0a" />
 
 https://github.com/user-attachments/assets/38e50a9b-005d-4c40-83e2-209338519126
@@ -62,6 +62,16 @@ Later I migrated this code to a new board: WT32-SC01.
 <img width="362" height="375" alt="image" src="https://github.com/user-attachments/assets/085d38cd-ef3e-4390-83aa-0f8de4f89a07" />
 
 The code is mostly the same except for the one required for displaying the TOTP codes in the much bigger screen (3.5" instead of 1.14").
+
+#### BLETOTP (2026)
+
+In this case I wanted to learn how to deal With Bluetooh (BLE) communications. So I updated the code I wrote for the [TOTP-M5](#totp-m5-2022) and I added BLE communication.  
+I create a service with several characteristics to creat a two way communication between the device (which acts as a GATT server).  
+The client was developed using Flutter. Using this communication, the client not only displays the current code. Now, different parameters (steps, length and key) may be sent to the device for customizing the generated codes.
+
+<img width="432" height="640" alt="BLEDemo1" src="https://github.com/user-attachments/assets/60e1876f-ab5c-4e82-996a-44f3b4f144ae" />
+<img width="432" height="640" alt="BLEdemo2" src="https://github.com/user-attachments/assets/15fdaf80-7f95-4257-862f-009244360a32" />
+
 
 ### IoT + AR (2023)
 This is a material for a lab I created for a module in another subject I am lecturing at the University which covers Industry 4.0.
